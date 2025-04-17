@@ -13,8 +13,9 @@ public class MoveZero {
 
 public static  void main (String[] args){
     int[] nums= {0,1,0,3,12};
+    System.out.println("Before Move Zero:"+Arrays.toString(nums));
      moveZero(nums);
-    System.out.println(Arrays.toString(nums));
+    System.out.println("After Move Zero"+Arrays.toString(nums));
 }
 
     public static void moveZero(int[] nums) {
